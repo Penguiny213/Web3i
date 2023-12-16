@@ -40,7 +40,7 @@ TinyGsm modem(gsmSerial);
 
 const char* simPIN = "1234"; // Replace with your SIM card PIN
 
-const char* server = "your-website.com";
+const char* server = "your-website.com"; //ilisan ra sa atong web
 const int port = 80;
 const char* endpoint = "/getPhoneNumber"; // Replace with your API endpoint
 
